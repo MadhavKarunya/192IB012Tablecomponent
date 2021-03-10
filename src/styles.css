@@ -1,0 +1,123 @@
+/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color:white;}
+    .button {
+        background-color: #4CAF50; /* Green */
+        width: 200px;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+    .button1 {
+        background-color: white; 
+        color: #4CAF50; 
+        border: 2px solid #4CAF50;
+        align-items: flex-start;
+      }
+      
+    .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+    .button2 {
+        background-color: white; 
+        color:#4CAF50; 
+        border: 2px solid #4CAF50;
+        align-items: center;
+        margin-left: 5%;
+      }
+      
+    .button2:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+    input[type=text] {
+        width: 100%;
+        padding: 16px 32px;
+        box-sizing: border-box;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        margin: 4px 2px;
+        margin-right: 10%;
+        align-items: center;
+        
+      }
+    .label{
+        background-color:#4CAF50; /* Green */
+        border: none;
+        font-weight: 1800;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+    
+    }
+    .labeltype1{
+        width :100%;
+        background-color: #4CAF50;
+        border: none;
+        color:white;
+        font-weight: 1500;
+        padding: 20px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 6px 2px;
+
+
+    }
+    .labeltype3{
+       
+        color :white;
+        background-color:#4CAF50;
+        margin: 6px 2px;
+        padding: 19px 32px;
+        font-weight: normal;
+        font-size: 20;
+        width: 200;
+        
+}
+::placeholder{
+    color:#ddd;
+    font-size: 16;
+    opacity: 5;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+
+  }
+  
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 4px 2px;
+    text-align: center;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  

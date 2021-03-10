@@ -1,0 +1,19 @@
+<head>READY TO SHOW THE DATA IN TABULAR FORM</head>
+
+<Body>
+<label class ="labeltype1">READY TO SHOW THE DATA IN TABULAR FORM  <br><br> Instructions : Please provide the data with keyword "data" as array of object . ( First link :  &nbsp; https://reqres.in/api/users?page=2  &nbsp;  second link :  &nbsp;  https://reqres.in/api/unknown )</label> <br>
+ <input type="text" #link  placeholder="Enter the URL of data file "> 
+<br><br><button class="button button1" (click) = " getlnk(link.value) ; gettable(); "> SHOW TABLE </button> 
+<button class="button button2" (click) = " destrytable(link.value) ;">REMOVE TABLE</button>
+<label class ="labeltype3"> {{msng}} </label>
+
+<table id = "customers" >
+  <tr >
+    <th id = "top" *ngFor = "let column of keylist">{{column}}</th>
+  </tr>
+  <tr *ngFor = "let item of correctdata">
+    <td *ngFor = "let kite of keylist">{{item[kite]}}</td>
+  </tr>
+  </table>
+</Body> 
+  
